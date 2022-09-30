@@ -12,7 +12,6 @@ Note : Please Follow the below guidelines to create task folders
 | Task No| Task Name | Details |
 |-|-|-|
 |1|Filtering Data| Merge all the images of same class and export the new filtered dataset.|
-|2|Data Preprocessing|         |
-|3|Model Development|         |
-|4|Model Deployment|         |
-|5|         |         |
+|2|Model Development|         |
+|3|Model Deployment|         |
+|4|         |         |
