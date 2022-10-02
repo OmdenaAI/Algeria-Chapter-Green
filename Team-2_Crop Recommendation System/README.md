@@ -1,5 +1,9 @@
 # **:ear_of_rice:Crop Recommendation System (Team 2)**
 
+LINK TO THE LEAD REPO- https://github.com/theshredbox/Team-2_Crop-Recommendation-System
+
+(ALL THE COMMITS AND ISSUES WERE ASSIGNED IN THE ABOVE MENTIONED REPO)
+
 Landless or marginal farmers lack the resources to either buy or lease more land or invest in farm infrastructure. In order to mitigate this agrarian crisis in the current status quo, there is a need for better recommendation systems to alleviate the crisis by helping the farmers to make an informed decision before starting the cultivation of crops.
 
 <p align="center">
