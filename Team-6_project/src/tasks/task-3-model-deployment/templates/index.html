@@ -14,9 +14,9 @@
             <h1>Identify Plant Species! </h1>
         </div>
         <div class="form">
-            <form action="/getresults" method="POST">
+            <form action="/getresults" method="POST" enctype="multipart/form-data">
                 <div class="input-group mb-3">
-                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <input type="file" name="file" class="form-control" id="inputGroupFile02"/>
                 </div>  
 
                 <button type="submit" class="btn btn-outline-primary">Submit</button>

@@ -1,4 +1,4 @@
 class Config():
-    UPLOAD_FOLDER = '/path/to/the/uploads'
+    UPLOAD_FOLDER = r'../functionality'
     DEBUG = True
     
