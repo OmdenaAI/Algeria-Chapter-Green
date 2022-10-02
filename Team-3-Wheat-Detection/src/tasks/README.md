@@ -1,4 +1,4 @@
-What am I predicting?
+What we are predicting?
 
 We are attempting to predict bounding boxes around each wheat head in images that have them. If there are no wheat heads, we must predict no bounding boxes.
 
