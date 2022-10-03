@@ -21,7 +21,7 @@
 
 ## :nazar_amulet:  CONCLUSION
 Forecasting water level changes is essential for better planning to mitigate any flood risk.
-In this study, 6 different models, including Multilayer Perceptron (MLP), Convolutional Neural Network (CNN), Long Term Memory (LSTM), Gated Recurrent Unit (GRU), and CNN-LSTM, were investigated and evaluated to predict water level changes in a river in Venezia, Italy, using data collected between 1983 and 2016.
+In this study, 5 different models, including Multi Layer Perceptron (MLP), Convolutional Neural Network (CNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU), and CNN-LSTM, were investigated and evaluated to predict water level changes in a river in Venezia, Italy, using data collected between 1983 and 2016.
 The comparison of the different models showed that the LSTM performs better in capturing water level changes.  This is due to its ability to process input data as sequences, which allows it to learn relevant features better than the others, especially features from long sequences.
 The results show that data-driven forecasting systems based on deep learning approaches enable better decision making, paving the way to be used in work to mitigate potential risks from natural events that may occur in the future.
 
