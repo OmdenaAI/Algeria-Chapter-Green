@@ -3,23 +3,22 @@
 
 Having the knowledge of identifying species of a plant is essential for protecting biodiversity. Trying to manually identify the species of a plant may be an easy task for a botanist, but to identify multiple of such plants through conventional methods becomes quite complex and time consuming. Having a system that could detect plant species automatically would not just make the task easy but time and cost effective as well. 
 
-<p>
-<img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" >
-</p>
 
 
-
-"TwigSee" is an application that 
-
-
-
-### How do we identify plant species?
+### What do we use to identify plant species?
 
 To classify a plant we need to observe the plant's features.  
 🌲Structure of the plant: To obtain the structure of the plant, the image of the entire plant needs to be captured, which makes the task complex and time consuming.  
 🌸Flower: Flowers could be used to identify the species of a plant, but some plants may not be flowering plants.  
 🍂Leaf: Leaves are not seasonal and all plants have leaves, making it the perfect option to be used to identify plant species. 
 
+
+
+<center>
+<img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" >
+</center>
+
+"TwigSee" is an application that allows user to submit an image of the leaf of a plant and the identify the plant's species. This web application was developed using Flask. 
 
 
 
