@@ -12,6 +12,13 @@ To classify a plant we need to observe the plant's features.
 🌸Flower: Flowers could be used to identify the species of a plant, but some plants may not be flowering plants.  
 🍂Leaf: Leaves are not seasonal and all plants have leaves, making it the perfect option to be used to identify plant species.  
 
+### Machine Learning Model Used
+
+##### **Convolutional Neural Network (CNN)**
+
+<p align="center">
+<img src="https://miro.medium.com/max/1400/1*6LEgDnjpbEhbvi3RrOuc6g.png" >
+</p>
 
 
 
