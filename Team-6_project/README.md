@@ -1,58 +1,74 @@
-# chapter-project-repository-template
-Use this Repository as a template for creating Local Chapter Repositories
+# Plant Species Identification
+### A Team-6 Collaboration 
+
+Having the knowledge of identifying species of a plant is essential for protecting biodiversity. Trying to manually identify the species of a plant may be an easy task for a botanist, but to identify multiple of such plants through conventional methods becomes quite complex and time consuming. Having a system that could detect plant species automatically would not just make the task easy but time and cost effective as well. 
+
+<p>
+<img src="\src\tasks\task-3-model-deployment\static\IMG\twigseelogo1.jpg" >
+</p>
 
 
-# Green Algeria Project 
+
+"TwigSee" is an application that 
 
 
-## Contribution Guidelines
-- Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
-- If you're creating a task, Go to the task folder and create a new folder with the below naming convention and add a README.md with task details and goals to help other contributors understand
-    - Task Folder Naming Convention : _task-n-taskname.(n is the task number)_  ex: task-1-data-analysis, task-2-model-deployment etc.
-    - Create a README.md with a table containing information table about all contributions for the task.
-- If you're contributing for a task, please make sure to store in relavant location and update the README.md information table with your contribution details.
-- Make sure your File names(jupyter notebooks, python files, data sheet file names etc) has proper naming to help others in easily identifing them.
-- Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion. 
 
-## Project Structure
+### How do we identify plant species?
 
-    ├── LICENSE
-    ├── README.md          <- The top-level README for developers/collaborators using this project.
-    ├── original           <- Original Source Code of the challenge hosted by omdena. Can be used as a reference code for the current project goal.
-    │ 
-    │
-    ├── reports            <- Folder containing the final reports/results of this project
-    │   └── README.md      <- Details about final reports and analysis
-    │ 
-    │   
-    ├── src                <- Source code folder for this project
-        │
-        ├── data           <- Datasets used and collected for this project
-        │   
-        ├── docs           <- Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
-        │
-        ├── references     <- Data dictionaries, manuals, and all other explanatory references used 
-        │
-        ├── tasks          <- Master folder for all individual task folders
-        │
-        ├── visualizations <- Code and Visualization dashboards generated for the project
-        │
-        └── results        <- Folder to store Final analysis and modelling results and code.
---------
+To classify a plant we need to observe the plant's features. 
+🌲Structure of the plant: To obtain the structure of the plant, the image of the entire plant needs to be captured, which makes the task complex and time consuming.
+🌸Flower: Flowers could be used to identify the species of a plant, but some plants may not be flowering plants. 
+🍂Leaf: Leaves are not seasonal and all plants have leaves, making it the perfect option to be used to identify plant species. 
 
-## Folder Overview
 
-- Original          - Folder Containing old/completed Omdena challenge code.
-- Reports           - Folder to store all Final Reports of this project
-- Data              - Folder to Store all the data collected and used for this project 
-- Docs              - Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
-- References        - Folder to store any referneced code/research papers and other useful documents used for this project
-- Tasks             - Master folder for all tasks
-  - All Task Folder names should follow specific naming convention
-  - All Task folder names should be in chronologial order (from 1 to n)
-  - All Task folders should have a README.md file with task Details and task goals along with an info table containing all code/notebook files with their links and information
-  - Update the [task-table](./src/tasks/README.md#task-table) whenever a task is created and explain the purpose and goals of the task to others.
-- Visualization     - Folder to store dashboards, analysis and visualization reports
-- Results           - Folder to store final analysis modelling results for the project.
 
+
+## Dataset Used
+* The Leafsnap Data set was used to develop this project.
+* http://leafsnap.com/dataset/
+* The dataset consists of 30,866 leaf images, 23,147 of which were pictures directly clicked from farms, the rest were pictures that were captured in a lab. 
+* The pictures in the dataset belong to 185 plant species. 
+* To simplify the process of development of machine learning models, we randomly selected 20 plant species to work with. These species include: 
+	1. Abies Concolor
+	2. Acer Rlatanoides
+	3. Koelreuteria Paniculata
+	4. Liquidambar Styraciflua
+	5. Magnolia Soulangiana
+	6. Magnolia Virginiana
+	7. Malus Coronaria
+	8. Metasequoia Glyptostroboides
+	9. Morus Rubra
+	10. Pinus Bungeana
+	11. Prunus Yedoensis
+	12. Quercus Acutissima
+	13. Quercus Falcata
+	14. Quercus Imbricaria
+	15. Quercus Palustris
+	16. Quercus Rubra
+	17. Robinia Pseudo-acacia
+	18. Sassafras Albidum
+	19. Tilia Americana
+	20. Ulmus Rubra
+
+
+## **:bar_chart: MODULE WORKFLOW**
+
+
+
+
+### :open_file_folder: Download and Unzip Contents from GitHub Repo
+
+Download and unzip contents from https://github.com/theshredbox/Team-2_Crop-Recommendation-System
+
+### :green_book: Generating the PKL file
+
+The machine learning model used in this project will firstly have to be generated by successfully running the included Jupyter notebook [Crop_Recommendation_P-6.ipynb](https://github.com/theshredbox/Team-2_Crop-Recommendation-System/blob/main/src/tasks/Crop_Recommendation_P-6.ipynb). Upon successfully running all code cells, a pickle model for each ML model trained will be created that can be further used for deployment.
+
+---
+
+##  Contributors of the Project
+1. [R Aditya](https://github.com/adityarags)
+2. [Vikash Sahni](https://github.com/Vikash-2020)
+3. [Ahilya Kale](https://github.com/AhilyaKale14)
+4. [Argish Abhangi](https://github.com/argishh)
 

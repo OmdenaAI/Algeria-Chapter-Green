@@ -6,17 +6,19 @@ import os
 
 CURRDIR = os.path.dirname(os.getcwd()) + "/task-3-model-deployment/"
 
-@app.route("/")
+@app.route("/", methods = ["GET", "POST"])
 def home():
-    return render_template("index.html")
-
-@app.route("/getresults", methods = ["GET", "POST"])
-def result():
+    predicted_val = ""
     if request.method == 'POST':
         f = request.files['file']
         filename = secure_filename(f.filename)
         f.save(f.filename)
-        Val = prediction.get_prediction(filename)
+        predicted_val = prediction.get_prediction(filename)
         os.remove(CURRDIR+f.filename)
-        return f"<h1>{Val}</h1>"
+    return render_template("index.html", prediction = predicted_val)
+
+@app.route("/getresults", )
+def result():
+
+    
     return "USE MODEL HERE TO OBTAIN THE SPECIES OF THE PLANT"
