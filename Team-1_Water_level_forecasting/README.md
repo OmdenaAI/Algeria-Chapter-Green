@@ -41,11 +41,44 @@ Preparation of Train, Valid and Test datasets
 Build, Train & Evaluate the model.
 ![image](https://user-images.githubusercontent.com/65725230/193627592-a625f93e-263f-414e-9c56-3eaa21a51484.png)
 
+**## 🎯 Results**
+
+### Prediction Plots
+
+#### MLP MODEL 1
+ <p align="center">
+  <img width="600" height="325" src="https://user-images.githubusercontent.com/66861391/193641941-1396b8de-839f-4481-877c-689411bad414.jpeg">
+</p>
+
+#### CNN
+<p align="center">
+  <img width="600" height="325" src="https://user-images.githubusercontent.com/66861391/193642199-55acbaa8-d564-4113-ae6c-6fe803ed91dd.jpeg">
+</p>
+
+
+#### GRU
+<p align="center">
+  <img width="600" height="325" src="https://user-images.githubusercontent.com/66861391/193642250-b9f0f9db-923f-4a71-a1c9-484aba8a9c9a.jpeg">
+</p> 
+
+
+
+#### LSTM
+<p align="center">
+  <img width="600" height="325" src="https://user-images.githubusercontent.com/66861391/193642310-b926200e-8987-497a-8e26-1a636303d455.jpeg">
+</p>
+
+
+#### CNN-LSTM
+<p align="center">
+  <img width="600" height="325" src="https://user-images.githubusercontent.com/66861391/193642369-9bbd707c-fba1-4865-bec5-c65e33c06c59.jpeg">
+</p>
+
 
 
 ### :open_file_folder: Download and Unzip Contents from GitHub Repo
 
-LEAD REPO - https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/main/Team-1_Water_level_forecasting/src/results/Water_Levels_in_Venezia_Italia%20(2).ipynb
+LEAD REPO - https://github.com/Surya-24/Water-Level-Forecasting
 
 
 ## **:shipit: CONTRIBUTORS**
