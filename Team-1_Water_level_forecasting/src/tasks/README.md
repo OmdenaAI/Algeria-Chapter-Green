@@ -18,5 +18,5 @@
 |4|      Models training  |   Build 5 models, train and validate on different metrics, plot  losses     | [Djazila Souhila KORTI](https://github.com/Souhila98)         |  
 |5|      Models Prediction       |     Evaluate the 5 models on the test set using three different metrics | plot the prediction results   | [Djazila Souhila KORTI](https://github.com/Souhila98)
 |6|      Models comparison       |     compare models using different plots| [Djazila Souhila KORTI](https://github.com/Souhila98) 
-|6|      Handled Github  |   Add / edit contents in github     |      [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)  | 
-|7|      Video Editing   |    Presentation and video editing    |   [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)      |
+|7|      Handled Github  |   Add / edit contents in github     |      [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)  | 
+|8|      Video Editing   |    Presentation and video editing    |   [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)      |
