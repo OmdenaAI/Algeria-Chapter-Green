@@ -41,7 +41,7 @@ Preparation of Train, Valid and Test datasets
 Build, Train & Evaluate the model.
 ![image](https://user-images.githubusercontent.com/65725230/193627592-a625f93e-263f-414e-9c56-3eaa21a51484.png)
 
-**## 🎯 Results**
+## 🎯 Results
 
 ### Prediction Plots
 
