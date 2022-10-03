@@ -15,19 +15,10 @@ To classify a plant we need to observe the plant's features.
 ### Machine Learning Model Used
 
 ##### **Convolutional Neural Network (CNN)**
-
+Convolutional Neural Networks uses the mathematical operation of convolution on images where the image is transformed by applying a kernel over each pixel and its local neighbors across the entire image. We have built a convolutional neural network model that tranforms the 2D images of leaves and flattens it, in order to extract its features and train upon it. 
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*6LEgDnjpbEhbvi3RrOuc6g.png" >
+<img src="https://miro.medium.com/max/1400/1*6LEgDnjpbEhbvi3RrOuc6g.png" style="width:50%;" >
 </p>
-
-
-
-
-<p align="center">
-<img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" >
-</p>
-
-"TwigSee" is an application that allows user to submit an image of the leaf of a plant and the identify the plant's species. This web application was developed using Flask. 
 
 
 
@@ -57,6 +48,15 @@ To classify a plant we need to observe the plant's features.
 	18. Sassafras Albidum
 	19. Tilia Americana
 	20. Ulmus Rubra
+
+## The Twigsee Application
+
+
+<p align="center">
+<img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" >
+</p>
+
+"TwigSee" is an application that allows user to submit an image of the leaf of a plant and the identify the plant's species. This web application was developed using Flask. 
 
 
 
