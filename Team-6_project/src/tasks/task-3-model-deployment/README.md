@@ -6,7 +6,7 @@ For a backend, we decided to use python’s flask framework and TensorFlow to lo
 Finally, we had with us the “TWIGSee” application. A web application that allows users upload the image of a leaf of a plant and then identify the plant’s species. 
  
 <p align="center">
-<img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" >
+<img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" ><br>
 The TWIGSee Application Logo
 </p>
 
