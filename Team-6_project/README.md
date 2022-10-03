@@ -10,13 +10,15 @@ Having the knowledge of identifying species of a plant is essential for protecti
 To classify a plant we need to observe the plant's features.  
 🌲Structure of the plant: To obtain the structure of the plant, the image of the entire plant needs to be captured, which makes the task complex and time consuming.  
 🌸Flower: Flowers could be used to identify the species of a plant, but some plants may not be flowering plants.  
-🍂Leaf: Leaves are not seasonal and all plants have leaves, making it the perfect option to be used to identify plant species. 
+🍂Leaf: Leaves are not seasonal and all plants have leaves, making it the perfect option to be used to identify plant species.  
 
 
 
-<center>
+
+
+<p align="center">
 <img src="https://github.com/OmdenaAI/Algeria-Chapter-Green/blob/Team-6_Plant-Species-Identification/Team-6_project/src/tasks/task-3-model-deployment/static/IMG/twigseelogo1.jpg" >
-</center>
+</p>
 
 "TwigSee" is an application that allows user to submit an image of the leaf of a plant and the identify the plant's species. This web application was developed using Flask. 
 
