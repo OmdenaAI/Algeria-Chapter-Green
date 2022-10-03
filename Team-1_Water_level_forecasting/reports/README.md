@@ -20,8 +20,8 @@
 </p>
 
 ## :nazar_amulet:  CONCLUSION
-The capability of different machine learning models such as the Multi Layer Perceptron (MLP), Long Short Term Memory (LSTM), Convolution Neural Network (CNN), CNN LSTM
-was investigated for the prediction of water level at a river in Venezia , Italy. Four different input scenarios were investigated, considering correlation analysis. 
-Generally, the comparison of several data-driven regression methods indicated that the exponential model offered better accuracy in predicting daily water levels with
-respect to different assessment criteria. The findings of this study show the success of the our model in capturing the changes in the water level of a river; 
-thus paving the way for which the model can be used in works to mitigate potential risk that may occur in the future from natural events. 
+Forecasting water level changes is essential for better planning to mitigate any flood risk.
+In this study, 6 different models, including Multilayer Perceptron (MLP), Convolutional Neural Network (CNN), Long Term Memory (LSTM), Gated Recurrent Unit (GRU), and CNN-LSTM, were investigated and evaluated to predict water level changes in a river in Venezia, Italy, using data collected between 1983 and 2016.
+The comparison of the different models showed that the LSTM performs better in capturing water level changes.  This is due to its ability to process input data as sequences, which allows it to learn relevant features from sequenced data better than the others, especially models from long sequences.
+The results show that deep learning approaches enable better decision making, paving the way for use in work to mitigate the potential risk that natural events may pose in the future.
+
