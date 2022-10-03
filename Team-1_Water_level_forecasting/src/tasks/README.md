@@ -17,5 +17,5 @@
 |3|       Data Selection |    Finalize the data   |     [Freny Reji](https://github.com/freny24) , [Djazila Souhila KORTI](https://github.com/Souhila98) |
 |4|      Data Modelling  |   Search for feature dependency and seperate features and target variables     | [Djazila Souhila KORTI](https://github.com/Souhila98)         |  
 |5|      Data VIZ        |     Use different visualizing techniques to establish relation between features                                                                           | [Djazila Souhila KORTI](https://github.com/Souhila98) , [Mada Sai Surya](https://github.com/Surya-24)
-|6|      Handled Github  |   Add / edit contents in github     |      [Freny Reji](https://github.com/freny24)   | 
+|6|      Handled Github  |   Add / edit contents in github     |      [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)  | 
 |7|      Video Editing   |    Presentation and video editing    |   [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)      |
