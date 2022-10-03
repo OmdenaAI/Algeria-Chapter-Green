@@ -12,10 +12,11 @@
 
 | Task No| Task Name | Details | Handled By |
 |-|-|-| - |
-|1|      EDA               |      Finalize the dataset and verify the data and perfrom EDA  | [Mada Sai Surya](https://github.com/Surya-24) , [Freny Reji](https://github.com/freny24) |
-|2|      Data Prepocessing |   Preprocess the data    |      [Mada Sai Surya](https://github.com/Surya-24) , [Freny Reji](https://github.com/freny24), [Djazila Souhila KORTI](https://github.com/Souhila98) |
-|3|       Data Selection |    Finalize the data   |     [Freny Reji](https://github.com/freny24) , [Djazila Souhila KORTI](https://github.com/Souhila98) |
-|4|      Data Modelling  |   Search for feature dependency and seperate features and target variables     | [Djazila Souhila KORTI](https://github.com/Souhila98)         |  
-|5|      Data VIZ        |     Use different visualizing techniques to establish relation between features                                                                           | [Djazila Souhila KORTI](https://github.com/Souhila98) , [Mada Sai Surya](https://github.com/Surya-24)
+|1|      Data collection              |      Find the dataset and propose it to the team members  | [Djazila Souhila KORTI](https://github.com/souhila98) |
+|2|      Data visualization & exploration  |   use different plots to visualise the data  |      [Mada Sai Surya](https://github.com/Surya-24) , [Freny Reji](https://github.com/freny24)|
+|3|       Data processing |    transform it to a supervised ML problem, seperate features from target variables, split on train,validation and test sets   |   [Djazila Souhila KORTI](https://github.com/Souhila98) |
+|4|      Models training  |   Build 5 models, train and validate on different metrics, plot  losses     | [Djazila Souhila KORTI](https://github.com/Souhila98)         |  
+|5|      Models Prediction       |     Evaluate the 5 models on the test set using three different metrics | plot the prediction results    | [Djazila Souhila KORTI](https://github.com/Souhila98) 
+|6|      Models comparison       |     compare models using different plots| [Djazila Souhila KORTI](https://github.com/Souhila98) 
 |6|      Handled Github  |   Add / edit contents in github     |      [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)  | 
 |7|      Video Editing   |    Presentation and video editing    |   [Freny Reji](https://github.com/freny24) , [Mada Sai Surya](https://github.com/Surya-24)      |
