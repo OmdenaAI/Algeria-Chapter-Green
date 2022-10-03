@@ -39,6 +39,8 @@ Data Processing & Transformation
 Preparation of Train, Valid and Test datasets
 
 Build, Train & Evaluate the model.
+![image](https://user-images.githubusercontent.com/65725230/193627393-f3aa70b8-85ae-40ff-979a-c32b594b2630.png)
+
 
 
 ### :open_file_folder: Download and Unzip Contents from GitHub Repo
