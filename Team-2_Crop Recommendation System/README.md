@@ -45,7 +45,7 @@ The machine learning model used in this project will firstly have to be generate
 ## **:shipit: CREATORS**
 1. [Aryan Ahuja](https://github.com/theshredbox)
 2. [Yash Sharma](https://github.com/yash2arma)
-3. [Anuhya Deverakonda](https://github.com/d-anuhya)
+3. [Devarakonda Anuhya](https://github.com/d-anuhya)
 4. [Narimane Beneouakta](https://github.com/Rimabenri)
 5. [Satyaki Bhattacharjee](https://github.com/gunner2k) 
 6. [Chit Hindocha](https://github.com/chithindocha)
