@@ -44,8 +44,6 @@ This repository is divided into Part 1 and Part 2 respectively.
 <h2>:globe_with_meridians:Website</h2>
 https://omdena.com/local-chapters/algeria-local-chapter/
 
-
 <h2>© 2022 Omdena</h2>
-
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/built-with-swag.svg)](https://forthebadge.com)
