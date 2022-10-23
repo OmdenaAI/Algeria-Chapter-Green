@@ -23,7 +23,10 @@ Notify the growers when there are issues within the crop relating to growth rate
 
 <h2>:bar_chart:Folder Structure</h2>
 
-All the files uploaded should be in accordance with the following
+All the files uploaded should be in accordance with the following structure.
+
+**NOTE**- If the dataset is very large, kindly upload the drive link to it in the README.md file of that particular subproject instead of uploading the entire dataset. 
+
 ```bash
 ├── Part 2
 │   ├── Subproject1- Indoor Climate Factors
