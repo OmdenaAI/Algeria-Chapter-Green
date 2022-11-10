@@ -6,14 +6,16 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow import keras as tfk
 from datetime import datetime, timedelta
-
+import matplotlib.pyplot as plt
+import matplotlib
+# matplotlib.use('Agg')
+# matplotlib.use('TKAgg')
 
 
 st.title('Greenhouse Climate Forecast')
 
 
 def prediction(file):
-
     
     #get data from user
     future_data = pd.read_csv(file)    
@@ -48,6 +50,10 @@ def prediction(file):
     #prediction
     future_predictions = model.predict(future)
 
+    return future_data, future_predictions, parameter_df
+
+def postprocess_n_plot(future_data, future_predictions, parameter_df):
+
     #postprocessing
     df_norm = pd.DataFrame(future_predictions.reshape(future_predictions[0].shape), columns = future_data.columns)
 
@@ -61,21 +67,25 @@ def prediction(file):
     future_pred = future_pred.set_index('datetime')
     merged_dataset = pd.concat([future_data, future_pred])
 
-    # st.subheader("Below is Bottom 5 results of input data")
-    # st.table(future_data.tail(5))
-    # st.subheader("Below is Forecast")
-    # st.table(future_pred)
-
+    #plotting the chart
     for i in range(6):
         parameter_name = future_pred.columns.to_list()[i]
         st.subheader("Parameter: {}".format(parameter_name))
-        st.line_chart(merged_dataset.iloc[:,i]) 
+
+        chart_data = pd.DataFrame()
+        chart_data['Forecast Value'] = merged_dataset[parameter_name]
+        future_list = list(future_data[parameter_name])
+        future_list = np.append(future_list, [np.nan]*5)
+        chart_data['Input Data'] = future_list                        
+        
+        st.line_chart(chart_data[-120:])  #plotting only last 2 hrs of data with forecast        
+
         if future_pred.iloc[:,i].mean() > parameter_df['U_limit'][i]:
             st.error("Upper limit of forecasted {} is exceeded".format(parameter_name))            
         elif future_pred.iloc[:,i].mean() < parameter_df['L_limit'][i]:
             st.error("Lower limit of forecasted {} is exceeded".format(parameter_name))            
 
-    return future_pred, future_data
+    #return future_pred, future_data
 
 def main():   
 
@@ -85,12 +95,9 @@ def main():
     file = st.file_uploader("Select input file", type = ['csv'], help = 'Input File should have 1 day worth of data i.e. 1440 rows')
 
     if st.button("Diagnose"):
-        future_pred = prediction(file)
-        #st.table(future_data)
-        #st.table(future_pred)
-        
+        future_data, future_predictions, parameter_df = prediction(file)
+        postprocess_n_plot(future_data, future_predictions, parameter_df)       
 
 
 if __name__=='__main__':
     main()
-
