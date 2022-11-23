@@ -10,7 +10,7 @@ This repository contains all the relevant content (source code, datasets, resear
 
 <h2>🤞Project Background</h2>
 
-Located in North Africa, Algeria has sought to support agriculture because of its potential in this sector. Indeed, it has put in place several agricultural policies and the objective was to achieve food security by substituting local production for imported products. One of the most important goals is the development of modern and sustainable protected greenhouse cultivation in Algeria. Managing greenhouses by means of AI technologies allows growers to be more focused on their crops and provides control at their fingertips. Proposed by the University of Ain Temouchent, Algeria, this project aims to develop ML models for the management of intelligent greenhouses.
+Located in North Africa, Algeria has sought to support agriculture because of its potential in this sector. Indeed, it has put in place several agricultural policies and the objective was to achieve food security by substituting local production for imported products. One of the most important goals is the development of modern and sustainable protected greenhouse cultivation in Algeria. Managing greenhouses by means of AI technologies allows growers to be more focused on their crops and provides control at their fingertips. Proposed by Omdena Algeria Chapter, this project aims to develop ML models for the management of intelligent greenhouses.
 
 <h2>📌Repository</h2>
 
