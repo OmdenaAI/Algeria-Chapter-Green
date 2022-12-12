@@ -18,7 +18,7 @@
     2. Disease Detection on plant leaves
     3. Irrigation recommendation system
 
-- The webpage link of the deployed project can be found [here.](https://ayoub-berdeddouch-algeriagreen-part2-deployment-app-gs9ugi.streamlit.app/)
+- The webpage link of the deployed project can be found [here.](https://green-algeria.streamlit.app/)
 - Below is the homepage of the deployed project:
 <p align="center">
   <img width="2000" src="https://github.com/sanjayd89/Algeria_GreenHouse/blob/main/images/deployment01.JPG"
